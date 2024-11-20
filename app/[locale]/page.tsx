@@ -27,8 +27,8 @@ export default function Home() {
 
 {/* Hook! */}
           <h1>  
-            More Growth. More Sales.<br/> 
-            More Turnover. Guaranteed.
+            {t("More Growth More Sales")}<br/> 
+            {t("More Turnover Guaranteed")}
           </h1>
           
 {/* CTA */}
@@ -36,16 +36,16 @@ export default function Home() {
             <Link href="https://calendly.com/ekoforge">
               <button>
                 
-               Let's Make It Happen
+               {t("CTA")}
               </button>
             </Link>
             <Link href="#contactsec">
               <button>
-                Contact Us
+              {t("contact")}
               </button>
             </Link>
           </div>
-          <p><br/>DO WHAT YOU DO BEST, WE'LL GUIDE YOU TO THE NEXT LEVEL</p>
+          <p><br/>{t("nextlevel")}</p>
 
 
 
@@ -54,11 +54,11 @@ export default function Home() {
 
           <div>
 
-            <h3>A Businesses In 2024</h3>
+            <h3>{t("agitate1")}</h3>
 
-            <h2>Needs Marketing and Digitization</h2>
+            <h2>{t("agitate2")}</h2>
 
-            <h3>So How Do You Get That?</h3>
+            <h3>{t("agitate3")}</h3>
             
             {/* Inline, Small Business stuggles with marketing*/}
             <div>
@@ -67,8 +67,8 @@ export default function Home() {
               {/* Point 1 */}
               <div>
                 <div>
-                  <h3>Do Everthing Yourself?</h3><br/>
-                  <p> If you have little to do, it's not a problem.<br/><br/><br/>However, if you're busy... this is not feasible.</p>
+                  <h3>{t("agitatepoint1")}</h3><br/>
+                  <p> {t("agitatepoint11")}<br/><br/><br/>{t("agitatepoint12")}</p>
                 </div>
               </div>
 
@@ -76,8 +76,8 @@ export default function Home() {
               {/* Point 2 */}
               <div>
                 <div>
-                  <h3>Hire Staff?</h3><br/>
-                  <p>Hiring a good team is <b>difficult</b>,<br/> and training them is expensive.<br/> <br/> It's not worth it and it takes too much time.</p>
+                  <h3>{t("agitatepoint2")}</h3><br/>
+                  <p>{t("agitatepoint21")}<br/> <br/>{t("agitatepoint22")}</p>
                 </div>
               </div>
 
@@ -85,12 +85,10 @@ export default function Home() {
               {/* Point 3 */}
               <div>
                 <div>
-                  <h3>Hire an Agency?</h3><br/>
-                  <p>Your business gets shoved into a generic template, missing out on the tailored strategies needed to skyrocket your success. <br/><br/>Not worth it.</p>
+                  <h3>{t("agitatepoint3")}</h3><br/>
+                  <p> {t("agitatepoint31")}<br/><br/>{t("agitatepoint32")}</p>
                 </div>
               </div>
-
-
             </div>
           </div>
 
@@ -99,27 +97,27 @@ export default function Home() {
 {/* CTA, How to solve the problem*/}
           <div>
 
-          <h3>Your Business Is Statistically Destined To Fall Apart.</h3>
+          <h3>{t("CTA1")} </h3>
 
-            <h2>Your Competitors Are Winning!</h2>
+            <h2>{t("CTA2")}</h2>
 
-            <h3>The Time To Take Action Has Come!</h3>
+            <h3>{t("CTA3")}</h3>
             
             {/* CTA Button*/}
             <div>
               <Link href="https://calendly.com/ekoforge">
                 <button>
                   
-                  Let's Get My Business On Track
+                  {t("CTA4")}
                 </button>
               </Link>
               <Link href="#contactsec">
                 <button>
-                  Contact Us
+                {t("contact")}
                 </button>
               </Link>
             </div>
-            <p>This You Will Not Regret.</p>
+            <p>{t("CTA4")}</p>
           </div>
 
 
@@ -136,7 +134,7 @@ export default function Home() {
               />
 
 
-              <h2>The impact on our branding and visual image has been very positive. I would highly recommend these services for any company or NGO that wants to have reliable, fast paced and good quality visual updates for their social media and/or advertisement.<br/>
+              <h2>{t("testimonials1")}<br/>
               <br/>
               — Kimmo,  2024
               </h2>
@@ -149,9 +147,9 @@ export default function Home() {
 {/* Not convinced? What Sets Us Apart? */}
           <div>
 
-            <h2>Still Not Sure? Still Have Questions?</h2>
+            <h2>{t("distinction1")}</h2>
 
-            <h1>"What Sets Us Apart From The Rest?"</h1>
+            <h1>{t("distinction2")}</h1>
             
             {/* Inline, Small Business stuggles with marketing*/}
             <div>
@@ -160,8 +158,8 @@ export default function Home() {
               {/* Point 1 */}
               <div>
                 <div>
-                  <h3>GUARANTEE</h3>
-                  <p> We only win if you win. <br/><br/>You won't carry a risk, we'll share it.</p>
+                  <h3>{t("distinctionpoint1")}</h3>
+                  <p> {t("distinctionpoint11")} <br/><br/>{t("distinctionpoint12")}</p>
                 </div>
               </div>
 
@@ -169,8 +167,8 @@ export default function Home() {
               {/* Point 2 */}
               <div>
                 <div>
-                  <h3>RESULT</h3>
-                  <p>Our first priority is to get you results.<br/><br/>Less talk, more walk.</p>
+                  <h3>{t("distinctionpoint2")}</h3>
+                  <p>{t("distinctionpoint21")}<br/><br/>{t("distinctionpoint22")}</p>
                 </div>
               </div>
 
@@ -178,8 +176,8 @@ export default function Home() {
               {/* Point 3 */}
               <div>
                 <div>
-                  <h3>OUTLIER</h3>
-                  <p>We don't just follow the crowd. <br/><br/> We customise and set new standards.</p>
+                  <h3>{t("distinctionpoint3")}</h3>
+                  <p>{t("distinctionpoint31")} <br/><br/> {t("distinctionpoint32")}</p>
                 </div>
               </div>
 
