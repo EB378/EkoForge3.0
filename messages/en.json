@@ -1,13 +1,10 @@
 {
   "NavbarLinks": {
+    "homeTitle": "EkoForge Oy",
     "nav1": "How Do I Fix My Business?",
-    "homeTitle": "Home page",
     "nav2": "Testimonials",
-    "aboutTitle": "About page",
     "nav3": "Contact Us",
-    "Title": "About page",
-    "nav4": "Book A Call",
-    "profileTitle": "Book A Call"
+    "nav4": "Book A Call"
   },
   "Footer": {
     "phone": "Phone",
