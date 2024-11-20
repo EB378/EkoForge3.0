@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import Footer from "@/components/Footer";
 
 export default async function RootLayout({
   children,
@@ -18,6 +19,7 @@ export default async function RootLayout({
           <div className="mx-auto max-w-4xl h-screen">
             <Navbar locale={locale} />
             {children}
+            <Footer locale={locale} />
           </div>
         </NextIntlClientProvider>
       </body>
