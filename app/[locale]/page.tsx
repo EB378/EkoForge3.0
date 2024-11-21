@@ -98,7 +98,7 @@ export default function Home() {
                 </button>
               </Link>
             </div>
-            <p className="mt-8 text-xl text-yellow-400 text-5xl">{t("CTA5")}</p>
+            <p className="mt-8 text-yellow-400 text-3xl">{t("CTA5")}</p>
           </div>
  
           {/* Testimonials */}
