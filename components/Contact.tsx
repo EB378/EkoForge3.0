@@ -17,7 +17,7 @@ const Contact = ({ locale }: { locale: string }) => {
           <h1 className="text-3xl font-bold text-center text-black mb-6">
             {t("title")}
           </h1>
-          <form name="contact" className="space-y-4">
+          <form name="contact" className="space-y-4" method="POST" data-netlify="true">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <input
                 type="text"
