@@ -16,7 +16,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <div className="mx-auto max-w-4xl h-screen">
+          <div className="w-full sm:max-w-4xl mx-0 h-screen">
             <Navbar locale={locale} />
             {children}
             <Footer locale={locale} />
