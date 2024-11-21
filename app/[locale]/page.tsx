@@ -27,7 +27,7 @@ export default function Home() {
           <div className="relative min-h-[50vh] w-full overflow-hidden bg-black flex items-center justify-center">
             {/* Cutout Text */}
             <h1>
-              <span className="bg-clip-text bg-fixed text-transparent bg-[url('/backgroundmain.png')] text-8xl leading-none">
+              <span className="bg-clip-text bg-fixed text-transparent bg-[url('/backgroundmain.png')] bg-no-repeat bg-cover text-8xl leading-none">
                 {t("More Growth More Sales")}
                 <br />
                 {t("More Turnover Guaranteed")}
@@ -125,22 +125,28 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-8 justify-center mt-8">
               {/* Point 1 */}
-              <div className="flex-1 min-w-[30%] p-6 bg-gray-200 rounded-lg text-center">
-                <h3 className="text-2xl font-semibold">{t("distinctionpoint1")}</h3>
-                <p className="mt-4">{t("distinctionpoint11")}</p>
-                <p className="mt-4">{t("distinctionpoint12")}</p>
+              <div className="flex-1 min-w-[30%] p-4 rounded-lg text-center bg-clip-padding bg-fixed text-black bg-[url('/backgroundmain.png')] bg-no-repeat bg-cover leading-none">
+                <div className=" p-6	bg-white/60 rounded-lg">
+                  <h3 className="text-2xl font-semibold">{t("distinctionpoint1")}</h3>
+                  <p className="mt-4">{t("distinctionpoint11")}</p>
+                  <p className="mt-4">{t("distinctionpoint12")}</p>
+                </div>
               </div>
               {/* Point 2 */}
-              <div className="flex-1 min-w-[30%] p-6 bg-gray-200 rounded-lg text-center">
-                <h3 className="text-2xl font-semibold">{t("distinctionpoint2")}</h3>
-                <p className="mt-4">{t("distinctionpoint21")}</p>
-                <p className="mt-4">{t("distinctionpoint22")}</p>
+              <div className="flex-1 min-w-[30%] p-4 rounded-lg text-center bg-clip-padding bg-fixed text-black bg-[url('/backgroundmain.png')] bg-no-repeat bg-cover leading-none">
+                <div className=" p-6	bg-white/60 rounded-lg">
+                  <h3 className="text-2xl font-semibold">{t("distinctionpoint2")}</h3>
+                  <p className="mt-4">{t("distinctionpoint21")}</p>
+                  <p className="mt-4">{t("distinctionpoint22")}</p>
+                </div>
               </div>
               {/* Point 3 */}
-              <div className="flex-1 min-w-[30%] p-6 bg-gray-200 rounded-lg text-center">
-                <h3 className="text-2xl font-semibold">{t("distinctionpoint3")}</h3>
-                <p className="mt-4">{t("distinctionpoint31")}</p>
-                <p className="mt-4">{t("distinctionpoint32")}</p>
+              <div className="flex-1 min-w-[30%] p-4 rounded-lg text-center bg-clip-padding bg-fixed text-black bg-[url('/backgroundmain.png')] bg-no-repeat bg-cover leading-none">
+                <div className=" p-6	bg-white/60 rounded-lg">
+                  <h3 className="text-2xl font-semibold">{t("distinctionpoint3")}</h3>
+                  <p className="mt-4">{t("distinctionpoint31")}</p>
+                  <p className="mt-4">{t("distinctionpoint32")}</p>
+                </div>
               </div>
             </div>
           </div>
