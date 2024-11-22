@@ -27,16 +27,16 @@ const Footer = ({ locale }: { locale: string }) => {
             {/* Social Icons */}
             <div className="flex justify-center md:justify-start space-x-4 text-white">
               <a href="#" aria-label="Facebook">
-                <i className="fab fa-facebook-f"></i>
+                Facebook
               </a>
               <a href="#" aria-label="Instagram">
-                <i className="fab fa-instagram"></i>
+              Facebook
               </a>
               <a href="#" aria-label="Twitter">
-                <i className="fab fa-twitter"></i>
+              Facebook
               </a>
               <a href="#" aria-label="LinkedIn">
-                <i className="fab fa-linkedin-in"></i>
+              Facebook
               </a>
             </div>
           </div>
